@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 250px;
+    background: url(../img/ColorPallete.jpg) no-repeat center center fixed;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    font: 20px "Sofia Pro Black", sans-serif;
+    color: #121313;
+}
+
+.contentHolder {
+    display: block;
+    text-align: left;
+    width: 650px;
+    margin: 0 auto;
+}
+
+a {
+    color: #6BBF46;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #07A937;
+    text-decoration: none;
+}
+
+.context {
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+}
+
+.NameHolder {
+    color: #F5F5F7;
+}
+
+.footer {
+    position: absolute;
+    bottom: 2.5%;
+    left: 12.5%;
+}
+
+.MediaHolder {
+    position: absolute;
+    bottom: 3.5%;
+    right: 4.5%;
+}
