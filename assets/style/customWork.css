@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*card filter*/
+
+.filterButtonHolder{
+    justify-content: center;
+
+}
+
+.filterButton{
+    border: 0.12em solid var(--dark);
+    cursor: pointer;
+    padding: 8px;
+    width: 140px;
+    text-align: center;
+    margin: 5px
+}
+
+.filterButtonHolder{
+    text-align: center;
+}
+
+.filterButtonHolder a {
+    display: inline-block;
+    border-radius: 25px;
+}
+
+
+.filterButtonHolder:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*fadeIn*/
+
+#fadeIn{
+    display: none;
+    opacity: 0;
+    z-index: 10;
+    position: fixed;
+    background-color: var(--white);
+    /*background-color: red;*/
+    width: 100%;
+    height: 100%;
+}
+/*fadeIn*/
+
+/*card filter*/
+
+
+/*cards*/
+
+.projectCard {
+    position: relative;
+    /*display: none;*/
+    height: 100%;
+    width: 100%;
+}
+
+.workIveDoneHolder {
+    /*position: relative;*/
+}
+
+.cardImg {
+    width: 100%;
+    z-index: 2;
+    padding: 35px 35px 75%;
+}
+
+.cardTitle {
+    z-index: 1;
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    text-align: left;
+    top: 90%;
+    left: 20%;
+}
+
+
+.cardMainTitle {
+    /*width: 400%;*/
+    font: 1.8em Bold, sans-serif;
+}
+
+.cardSecondaryTitle {
+    font: 1em Regular, sans-serif;
+}
+
+.cardDescription {
+    padding: 0 35px 0 35px;
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    /*left: 60%;*/
+    /*transform: translate(-50%, -50%);*/
+    font: 0.6em light, sans-serif;
+}
+
+
+/*temp temp temp*/
+@media screen and (max-width: 992px) {
+    .cardDescription {
+        display: none;
+    }
+
+    .cardImg {
+        padding: 15px 15px 75%;
+    }
+
+}
+
+
+

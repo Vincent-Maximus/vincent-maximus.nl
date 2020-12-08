@@ -1,0 +1,27 @@
+
+h1 {
+    font-size: 50px;
+}
+
+.contentHolder {
+    display: block;
+    text-align: left;
+    width: 650px;
+    margin: 0 auto;
+}
+
+.NameHolder {
+    color: var(--white);
+}
+
+.footer {
+    position: absolute;
+    bottom: 2.5%;
+    left: 12.5%;
+}
+
+.MediaHolder {
+    position: absolute;
+    bottom: 3.5%;
+    right: 4.5%;
+}

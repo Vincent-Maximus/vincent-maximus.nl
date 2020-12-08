@@ -1,0 +1,21 @@
+.aboutMeText{
+    padding: 10px 0 65px;
+    width: 75%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.whatCanIDoText{
+    padding: 10px 0 65px;
+    width: 50%;
+    position: relative;
+    left: 48%;
+    transform: translate(-50%);
+}
+
+.centerButton{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}

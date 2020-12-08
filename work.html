@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Work | Vincent Maximus</title>
+</head>
+<body>
+<div id="fadeIn"></div>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<link rel="stylesheet" href="assets/style/fonts.css">
+<link rel="stylesheet" href="assets/style/style.css">
+<link rel="stylesheet" href="assets/style/tempstyle.css">
+<link rel="stylesheet" href="assets/style/workExperience.css">
+<link rel="stylesheet" href="assets/style/projects.css">
+<link rel="stylesheet" href="assets/style/customWork.css">
+
+
+<div class="menu">
+    <a class="myName">Vincent Maximus</a>
+
+    <ul class="topnav">
+        <li class="home"><a href="index.html">Home</a></li>
+        <li class="work right"><a onclick="emptybutton()" href="#work">Work</a></li>
+        <li class="about right"><a href="about.html">About</a></li>
+    </ul>
+</div>
+
+
+
+
+<!--spacing-->
+<div class="spacer-5"></div>
+
+<div class="project color-blue">
+    <div class="m-0 p-0 ">
+        <div class="row m-0 p-0">
+            <div class="col-lg-6 m-0 p-0">
+                <div class="musicContextHolder">
+                    <div class="projectTitle">
+                        Projects
+                    </div>
+                    <div class="context">
+                        A Curated portfolio of both client and personal work from my roles as full-stack programmer,
+                        photographer
+                        and
+                        content creator.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 m-0 p-0">
+                <img class="musicImg" src="assets/images/projects/intro/work-portfolio.jpg" alt="WorkSpacePhoto"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--spacing-->
+<div class="spacer-5"></div>
+<!--anchor-->
+<div id="allWork"></div>
+<div class="spacer-5"></div>
+
+
+
+
+<div class="container">
+    <div class="filterButtonHolder">
+        <h1 class="projectTitle">What do you want to see?</h1>
+        <br>
+        <a class="filterButton" id="everything">Everything</a>
+        <a class="filterButton" id="school">School</a>
+        <a class="filterButton" id="photography">Photography</a>
+        <a class="filterButton" id="personal">Personal</a>
+        <a class="filterButton" id="projects">Projects</a>
+        <a class="filterButton" id="internships">Internships</a>
+        <a class="filterButton" id="volunteer">Volunteer</a>
+    </div>
+</div>
+
+<!--spacing-->
+<div class="spacer-5"></div>
+
+<!--work-->
+<div class="workIveDoneHolder">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 p-2 projects internships everything">
+                <div id="projectCardId" class="projectCard color-blue ">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div  class="cardTitle">
+                                    <div class="cardSecondaryTitle">Nostium</div>
+                                    <div class="cardMainTitle">Reservation system</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/reservation_system_nostium/thumbnail.png" width="100%"/>
+                                </div>
+                                <div class="cardDescription">Internship, Full-stack Web Developer<br><br> Symfony, Twig,
+                                    PHP, MySQL, Sass, CSS, HTML, Jquery and Javascript ES6
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 projects school everything">
+                <div class="projectCard color-yellow ">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Summa Ask</div>
+                                    <div class="cardMainTitle">Form System</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/summa_ask/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">School project at Summa College, web app<br><br> ASP.NET, C#, HTML, CSS3 and Javascript ES6</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 projects personal everything">
+                <div class="projectCard color-green">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">OurChat</div>
+                                    <div class="cardMainTitle">Native Chat App</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/ourchat/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">Personal Project<br><br>Designed and build from scratch
+                                    with Flutter and Dart
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 internships everything">
+                <div class="projectCard color-yellow">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Toolmasters B.V.</div>
+                                    <div class="cardMainTitle">Webshop</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/webshop_toolmasters/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">Internship<br><br>WordPress</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 photography everything">
+                <div class="projectCard color-yellow">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Photography</div>
+                                    <div class="cardMainTitle">Automotive</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/automotive/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">Personal<br><br> I just love to capture things</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 photography everything">
+                <div class="projectCard color-blue">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Photography</div>
+                                    <div class="cardMainTitle">Weddings</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/weddings/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">Get-it-on-Picture<br><br> Kind of a family business</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 volunteer everything">
+                <div class="projectCard color-green">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">IT Technician</div>
+                                    <div class="cardMainTitle">Parochie Sint-Joris</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/it_technician_parochie_sint_joris/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">a iaculis <br><br> at erat pellentesque adipiscing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 volunteer everything">
+                <div class="projectCard color-blue">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Appartement Elzentlaan Eindhoven</div>
+                                    <div class="cardMainTitle">Surveillance System</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/surveillance_systems/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">Remote Surveillance System <br><br> Separate 4G Network with UPC APC against lightning and power outage</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 personal everything">
+                <div class="projectCard color-green">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Illustrations</div>
+                                    <div class="cardMainTitle">Personal</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/illustrations/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">a iaculis <br><br> at erat pellentesque adipiscing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 photography everything">
+                <div class="projectCard color-blue">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Photography</div>
+                                    <div class="cardMainTitle">Church</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/church/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">a iaculis <br><br> at erat pellentesque adipiscing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 school projects everything">
+                <div class="projectCard color-yellow">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">iXat</div>
+                                    <div class="cardMainTitle">Uber alternative</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/ixat/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">School Project Summa College<br><br>Build with: HTML5,
+                                    CSS3, JS, and PHP
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 projects personal everything">
+                <div class="projectCard color-yellow">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">instagram</div>
+                                    <div class="cardMainTitle">Native Social App</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/instagram_flutter/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">A birthday gift for my dad<br><br> Build with: Flutter
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-2 photography everything">
+                <div class="projectCard color-green">
+                    <div class="container h-100 p-0">
+                        <div class="row h-100 m-0">
+                            <div class="col-4 p-0 m-0">
+                                <div class="cardTitle">
+                                    <div class="cardSecondaryTitle">Photography</div>
+                                    <div class="cardMainTitle">Portrait</div>
+                                </div>
+                            </div>
+                            <div class="col-8 p-0 m-0">
+                                <div class="cardImg"><img src="assets/images/work/portraits/thumbnail.png"
+                                                          width="100%"/>
+                                </div>
+                                <div class="cardDescription">a iaculis <br><br> at erat pellentesque adipiscing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--spacing-->
+<div class="spacer-5"></div>
+
+
+<div class="color-white">
+    <div class="socialContextHolder">
+        <div class="wideProjectTitle contextCenter">
+            So, Now what do you want to do?
+        </div>
+        <div class="spacer-5"></div>
+        <div class="contextCenter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="optionButton color-blue"><a href="index.html#projects" class="noAWhite color-blue"
+                                                                id="viewWork">View work</a></div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="optionButton color-yellow"><a href="index.html#SocialIAm"
+                                                                  class="noADark color-yellow" id="followMe">Follow me
+                            on social</a></div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="optionButton color-green"><a href="index.html#SocialIAm"
+                                                                 class="noAWhite color-green" id="contactMe">Contact
+                            me</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--spacing-->
+<div class="spacer-15"></div>
+
+<div class="footer">
+    <div class="row m-0">
+        <div class="col-sm p-0">
+            <div class="contextCenter color-black pt-5 pb-5">
+                <a class="m-3 footerSocialIcon" href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ"
+                   target="_blank">
+                    <img src="assets/images/mediaIcons/youtube.png" width="38">
+                </a>
+
+                <a class="m-3 footerSocialIcon" href="https://www.instagram.com/vincent.maximus/" target="_blank">
+                    <img src="assets/images/mediaIcons/instagram.png" width="28">
+                </a>
+
+                <a class="m-3 footerSocialIcon"
+                   href="https://open.spotify.com/user/maxv2000_1?si=BK41GfmnRpSyPmmWu1QODQ"
+                   target="_blank">
+                    <img src="assets/images/mediaIcons/spotify.png" width="30">
+                </a>
+
+                <a class="m-3 footerSocialIcon" href="https://www.linkedin.com/in/vincent-maximus" target="_blank">
+                    <img src="assets/images/mediaIcons/linkedin.png" width="25">
+                </a>
+
+                <a class="m-3 footerSocialIcon" href="https://github.com/Vincent-Maximus" target="_blank">
+                    <img src="assets/images/mediaIcons/github.png" width="32">
+                </a>
+
+                <a class="m-3 footerSocialIcon" href="mailto:vjp.maximus@gmail.com" target="_blank">
+                    <img src="assets/images/mediaIcons/mail.png" width="40">
+                </a>
+            </div>
+        </div>
+        <div class="col-sm p-0">
+            <div class="contextCenter">
+                Vincent Maximus<br>
+                Doormanlaan 54<br>
+                5694 EC Son en Breugel
+            </div>
+        </div>
+        <div class="col-sm p-0">
+            <div class="contextCenter">
+                +31 6 3152 1355
+                <br>
+                vjp.maximus@gmail.com
+                <br>
+                Copyright © 2019-
+                <script language="javascript" type="text/javascript">var today = new Date();
+                var year = today.getFullYear();
+                document.write(year);</script>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
+
+
+<!--sweetAlerts-->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="assets/js/sweetAlert2.js"></script>
+
+
+<script src="assets/js/windowResize.js"></script>
+
+
+
+

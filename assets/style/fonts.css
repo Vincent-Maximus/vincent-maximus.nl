@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Black;
+    src: url("../font/SofiaProBlack.otf");
+}
+
+@font-face {
+    font-family: Bold;
+    src: url("../font/SofiaProBold.otf");
+}
+
+@font-face {
+    font-family: SemiBold;
+    src: url("../font/SofiaProSemiBold.otf");
+}
+
+@font-face {
+    font-family: Medium;
+    src: url("../font/SofiaProMedium.otf");
+}
+
+@font-face {
+    font-family: Regular;
+    src: url("../font/SofiaProRegular.otf");
+}
+
+@font-face {
+    font-family: light;
+    src: url("../font/SofiaProLight.otf");
+}
+
+.Black {
+    font-family: Black !important;
+}
+
+.Bold {
+    font-family: Bold !important;
+}
+
+.SemiBold {
+    font-family: SemiBold !important;
+}
+
+.Medium {
+    font-family: Medium !important;
+}
+
+.Regular {
+    font-family: Regular !important;
+}
+
+.Light {
+    font-family: light !important;
+}
