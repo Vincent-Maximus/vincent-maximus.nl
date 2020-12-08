@@ -47,7 +47,7 @@ body {
     display: none;
     opacity: 0;
     z-index: 10;
-    position: fixed;
+    position: absolute;
     background-color: var(--white);
     /*background-color: red;*/
     width: 100%;
