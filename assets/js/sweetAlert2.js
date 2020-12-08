@@ -23,7 +23,7 @@ function ICT() {
     Swal.fire({
         title: "ICT Application & Media Development",
         text: "Mbo 4 Eindhoven,      Graduation expected July 2021" ,
-        imageUrl: 'assets/images/homepage/experience/1_summa college/summa-college.jpg',
+        imageUrl: 'assets/images/homepage/experience/1_summa_college/summa-college.jpg',
     });
 }
 
@@ -57,7 +57,7 @@ function Philips() {
     Swal.fire({
         title: "Philips | Internship",
         text: "Hands on the progamming language C++. I build  and installed a cluster." ,
-        imageUrl: 'assets/images/homepage/experience/5_philips MRI/philips-mri.jpg',
+        imageUrl: 'assets/images/homepage/experience/5_philips_MRI/philips-mri.jpg',
     });
 }
 
@@ -66,7 +66,7 @@ function ITTech() {
     Swal.fire({
         title: "Bosch | Internship",
         text: "Making sure that eveyone at Bosch could work   Properly, replacing laptop parts and placing  accesspoints" ,
-        imageUrl: 'assets/images/homepage/experience/6_bosch IT/bosch-it.jpg',
+        imageUrl: 'assets/images/homepage/experience/6_bosch_IT/bosch-it.jpg',
     });
 }
 
