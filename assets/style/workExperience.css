@@ -32,7 +32,9 @@
     margin-left: 40px;
 }
 
-
+.workCard:last-child {
+    padding-right: 50px;
+}
 
 .workImg {
     width: 60%;

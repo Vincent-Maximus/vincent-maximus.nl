@@ -1,0 +1,158 @@
+/*img scroll*/
+.imgCardContainer {
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    padding: 3rem;
+    height: 40%;
+}
+
+.individualWorkImg {
+    max-width: 550px;
+}
+
+
+.individualWorkCard:first-child {
+    margin-left: 12%;
+}
+
+
+.individualWorkCard:not(:first-child) {
+    margin-left: 40px;
+}
+
+.individualWorkCard:last-child {
+    padding-right: 50px;
+}
+
+/*img scroll*/
+
+/*directory*/
+.directory{
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    top: 400px;
+    left: 2.5%;
+}
+
+.directoryBackArrow{
+    float: left;
+    padding-right: 10px;
+}
+
+.directoryBack{
+    float: left;
+    padding-right: 10px;
+}
+
+.directory:hover > a > .directoryBack{
+    text-decoration: underline;
+}
+
+/*directory*/
+
+/*simple information*/
+
+.individualWorkTitle{
+    margin-top: 25px;
+    margin-left: 15%;
+    font: 2.4em Bold, sans-serif;
+}
+
+
+.individualWorkHr{
+    /*color: var(--dark);*/
+    border-top: 0.1em solid var(--dark);
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 25px;
+}
+
+.individualWorkInfoHolder {
+    margin-top: 25px;
+    margin-left: 15%;
+}
+
+.individualWorkDescription{
+    font: 1.2em Regular, sans-serif;
+}
+
+.individualWorkDescriptionText{
+    max-width: 80%;
+    font: 0.8em light, sans-serif;
+}
+
+/*simple information*/
+
+
+/*challenge part*/
+
+.challengeTitle{
+    font: 2.5em Bold, sans-serif;
+}
+
+
+
+.challengeContextHolder {
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    position: relative;
+    min-height: 380px;
+}
+
+.challengeContext{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font: 1em Medium, sans-serif;
+}
+
+.challengeImg {
+    width: 100%;
+    top: -10%;
+    right: 10%;
+    position: absolute;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .challengeImg {
+        width: 55%;
+        position: relative;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 1992px) {
+    .challengeImg {
+        width: 50%;
+        position: relative;
+        top: 45%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+/*challenge part*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
