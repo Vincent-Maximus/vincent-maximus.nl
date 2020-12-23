@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/style/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/projects.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1f6FvfSp6pgUtDjKuyvG44NRsXb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\webp" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\hub\mediaIcons" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\hub" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\hub\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\style" />
+      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\surveillance_systems" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="" />
+      <created>1595530867371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595530867371</updated>
+      <workItem from="1595530868617" duration="6531000" />
+      <workItem from="1595622659900" duration="2430000" />
+      <workItem from="1595631483385" duration="1218000" />
+      <workItem from="1595684486716" duration="785000" />
+      <workItem from="1595799386177" duration="104000" />
+      <workItem from="1605643414644" duration="76710000" />
+      <workItem from="1606222870474" duration="25799000" />
+      <workItem from="1606727269258" duration="42638000" />
+      <workItem from="1607114452124" duration="24434000" />
+      <workItem from="1607503502049" duration="16508000" />
+      <workItem from="1607685077625" duration="3918000" />
+      <workItem from="1607706564632" duration="15024000" />
+      <workItem from="1607934325560" duration="14198000" />
+      <workItem from="1608727789316" duration="55000" />
+      <workItem from="1608727846634" duration="2967000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1531" y="222" key="#Inspections" timestamp="1607590267786">
+      <screen x="72" y="0" width="2488" height="1080" />
+    </state>
+    <state x="1527" y="222" key="#Inspections/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605985510632" />
+    <state x="1531" y="222" key="#Inspections/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607590267786" />
+    <state x="1089" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607517023071">
+      <screen x="66" y="0" width="1554" height="1080" />
+    </state>
+    <state x="1706" y="342" key="#com.intellij.fileTypes.FileTypeChooser/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1607437369570" />
+    <state x="1708" y="342" key="#com.intellij.fileTypes.FileTypeChooser/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1605733604749" />
+    <state x="1712" y="342" key="#com.intellij.fileTypes.FileTypeChooser/2599.0.1581.1080/79.0.2481.1080@79.0.2481.1080" timestamp="1607203977386" />
+    <state x="1089" y="342" key="#com.intellij.fileTypes.FileTypeChooser/66.0.1554.1080/-2388.491.1365.913@66.0.1554.1080" timestamp="1607517023071" />
+    <state x="1607" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607034563708">
+      <screen x="72" y="0" width="2488" height="1080" />
+    </state>
+    <state x="1607" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607034563708" />
+    <state x="1027" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.0.1548.1080@72.0.1548.1080" timestamp="1606987362294" />
+    <state x="1682" y="277" key="FileChooserDialogImpl" timestamp="1608727842915">
+      <screen x="72" y="0" width="2488" height="1080" />
+    </state>
+    <state x="1714" y="298" key="FileChooserDialogImpl/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1605875496995" />
+    <state x="1714" y="298" key="FileChooserDialogImpl/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605985895403" />
+    <state x="1716" y="298" key="FileChooserDialogImpl/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1607934451526" />
+    <state x="1682" y="277" key="FileChooserDialogImpl/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1608727842915" />
+    <state x="1096" y="298" key="FileChooserDialogImpl/72.0.1548.1080/-1194.491.1194.794/627.-1050.1344.800@72.0.1548.1080" timestamp="1607690219240" />
+    <state x="1755" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607034079850">
+      <screen x="72" y="0" width="2488" height="1080" />
+    </state>
+    <state x="1755" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607034079850" />
+    <state x="1644" y="273" width="650" height="682" key="find.popup" timestamp="1607935987761">
+      <screen x="67" y="0" width="2493" height="1080" />
+    </state>
+    <state x="1152" y="150" width="991" height="682" key="find.popup/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1607460535966" />
+    <state x="1128" y="259" width="985" height="682" key="find.popup/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605993047988" />
+    <state x="1644" y="273" width="650" height="682" key="find.popup/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1607935987761" />
+    <state x="1132" y="259" width="983" height="682" key="find.popup/2595.0.1585.1080/70.0.2490.1080@70.0.2490.1080" timestamp="1606223464658" />
+    <state x="1158" y="150" width="987" height="682" key="find.popup/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607858501918" />
+    <state x="1127" y="259" width="985" height="682" key="find.popup/62.0.2498.1080/2560.0.1620.1040@62.0.2498.1080" timestamp="1605909164408" />
+    <state x="729" y="259" width="612" height="682" key="find.popup/67.0.1553.1080/-2388.491.1365.913@67.0.1553.1080" timestamp="1605792155410" />
+    <state x="1008" y="273" width="612" height="682" key="find.popup/67.0.1553.1080@67.0.1553.1080" timestamp="1605792009507" />
+    <state x="732" y="259" width="614" height="682" key="find.popup/71.0.1549.1080/-2388.491.1365.913@71.0.1549.1080" timestamp="1606481302542" />
+    <state x="748" y="150" width="615" height="682" key="find.popup/72.0.1548.1080@72.0.1548.1080" timestamp="1607008073236" />
+    <state x="1580" y="254" width="672" height="677" key="run.anything.popup" timestamp="1608727952468">
+      <screen x="72" y="0" width="2488" height="1080" />
+    </state>
+    <state x="1576" y="254" width="674" height="677" key="run.anything.popup/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1607442007313" />
+    <state x="1576" y="254" width="672" height="677" key="run.anything.popup/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605989563780" />
+    <state x="1578" y="254" key="run.anything.popup/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1605715870245" />
+    <state x="1579" y="254" width="671" height="677" key="run.anything.popup/2595.0.1585.1080/70.0.2490.1080@70.0.2490.1080" timestamp="1606223638769" />
+    <state x="1580" y="254" width="672" height="677" key="run.anything.popup/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1608727952468" />
+    <state x="948" y="255" width="420" height="677" key="run.anything.popup/66.0.1554.1080/-2388.491.1365.913@66.0.1554.1080" timestamp="1607517897762" />
+    <state x="949" y="256" width="419" height="677" key="run.anything.popup/72.0.1548.1080/-1194.491.1194.794/627.-1050.1344.800@72.0.1548.1080" timestamp="1607688992527" />
+    <state x="507" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1605797979641">
+      <screen x="67" y="0" width="1553" height="1080" />
+    </state>
+    <state x="507" y="236" width="672" height="678" key="search.everywhere.popup/67.0.1553.1080/-2388.491.1365.913@67.0.1553.1080" timestamp="1605797979641" />
+  </component>
+</project>

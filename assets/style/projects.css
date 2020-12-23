@@ -149,7 +149,7 @@ hr {
         position: relative;
         top: 45%;
         left: 48%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -10%);
     }
 
     .educationImg {
@@ -157,7 +157,7 @@ hr {
         position: relative;
         top: 45%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -15%);
     }
 }
 
