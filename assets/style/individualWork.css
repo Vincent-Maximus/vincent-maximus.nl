@@ -142,9 +142,39 @@
 }
 /*challenge part*/
 
+/*goals part*/
+
+.goalImg {
+    width: 100%;
+    bottom: 0;
+}
+
+.goalContextHolder{
+    top: 20%;
+    left: 15%;
+    position: relative;
+    min-height: 480px;
+    width: 50%;
+}
+
+/*goals part*/
+
+/*solution part*/
+.solutionContextHolder{
+    top: 20%;
+    left: 15%;
+    position: relative;
+    min-height: 380px;
+    width: 80%;
+}
 
 
-
+.solutionProject {
+    position: relative;
+    margin: 7.5%;
+    color: var(--white);
+}
+/*solution part*/
 
 
 
