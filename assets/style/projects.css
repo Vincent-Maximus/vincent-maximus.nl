@@ -111,7 +111,8 @@ hr {
 }
 
 .context {
-    width: 400px;
+    min-width: 400px;
+    max-width: 550px;
     margin-top: 20px;
     margin-bottom: 40px;
     font: 1em Medium, sans-serif;

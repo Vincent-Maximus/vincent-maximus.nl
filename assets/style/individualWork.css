@@ -105,7 +105,8 @@
 }
 
 .challengeContext{
-    width: 400px;
+    min-width: 400px;
+    max-width: 555px;
     margin-top: 20px;
     margin-bottom: 40px;
     font: 1em Medium, sans-serif;
@@ -150,11 +151,12 @@
 }
 
 .goalContextHolder{
-    top: 20%;
+    top: 12.5%;
     left: 15%;
     position: relative;
     min-height: 480px;
-    width: 50%;
+    width: 75%;
+    padding-bottom: 15%;
 }
 
 /*goals part*/

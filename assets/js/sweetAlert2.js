@@ -1,12 +1,43 @@
-window.addEventListener('load', () => {
-    setTimeout(() =>
-            Swal.fire({
-                title: 'My website is still in progress',
-                text: 'More content is coming | There might be bugs!',
-                imageUrl: 'assets/images/Early Access/lines_color.jpg',
-            }),
-        1000);
-});
+//
+// function GetCookie(name) {
+//     let arg=name+"=";
+//     let alen=arg.length;
+//     let clen=document.cookie.length;
+//     let i=0;
+//     while (i<clen) {
+//         let j=i+alen;
+//         if (document.cookie.substring(i,j)==arg)
+//             return "here";
+//         i=document.cookie.indexOf(" ",i)+1;
+//         if (i==0) break;
+//     }
+//     return null;
+// }
+// function testFirstCookie(){
+//     let visit=GetCookie("FirstTimeVisitCookie");
+//     if (visit==null){
+//         let expire=new Date();
+//         expire=new Date(expire.getTime()+7776000000);
+//         document.cookie="FirstTimeVisitCookie=here; expires="+expire + ";path=/";
+//         user = alert("hi there first time");
+//     } else {
+//         user = alert("welcomeback");
+//     }
+// }
+//
+// testFirstCookie();
+
+
+//
+// window.addEventListener('load', () => {
+//     setTimeout(() =>
+//             Swal.fire({
+//                 title: 'My website is still in progress',
+//                 text: 'More content is coming | There might be bugs!',
+//                 imageUrl: 'assets/images/Early Access/lines_color.jpg',
+//             }),
+//         1000);
+// });
 
 
 function emptybutton() {
