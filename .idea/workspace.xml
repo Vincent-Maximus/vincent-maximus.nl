@@ -11,12 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/general/favicon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/linkIndividualWork.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/linkIndividualWork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/sweetAlert2.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/sweetAlert2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/individualWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/individualWork.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/projects.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work/workReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/workReservationSystem.html" afterDir="false" />
@@ -103,7 +100,7 @@
       <workItem from="1608727846634" duration="4542000" />
       <workItem from="1608902502827" duration="2242000" />
       <workItem from="1609149649489" duration="15277000" />
-      <workItem from="1609338223443" duration="1004000" />
+      <workItem from="1609338223443" duration="1240000" />
     </task>
     <servers />
   </component>
