@@ -13,7 +13,7 @@ body {
 
 .filterButtonHolder{
     justify-content: center;
-
+    text-align: center;
 }
 
 .filterButton{
@@ -23,10 +23,6 @@ body {
     width: 140px;
     text-align: center;
     margin: 5px
-}
-
-.filterButtonHolder{
-    text-align: center;
 }
 
 .filterButtonHolder a {
