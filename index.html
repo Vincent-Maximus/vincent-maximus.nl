@@ -21,12 +21,28 @@
 
     <link rel="stylesheet" href="assets/style/fonts.css">
     <meta name="google-site-verification" content="w2JYZ5qVhXJEJs4Rkz4NDIfVoi4aulFNhSYPF_Quxa0"/>
-    <!--    <meta name="viewport" content="width=device-width, initial-scale=4.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=4.0">
     <title>Portfolio | Vincent Maximus</title>
     <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/style/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/tempstyle.css">
+    <link rel="stylesheet" href="assets/style/workExperience.css">
+    <link rel="stylesheet" href="assets/style/projects.css">
+
 </head>
 
 <body>
+<audio loop autoplay >
+    <source src="assets/audio/sound-ambiant.mp3" type="audio/mp3" >
+</audio>
+
+<audio id="audio-in">
+    <source src="assets/audio/rollover.mp3" type="audio/mp3" >
+</audio>
+
 <div class="menu">
     <a class="myName">Vincent Maximus</a>
 
@@ -622,14 +638,16 @@
                     Ready to do this? So am I. All of my time is currently occupied by working at an amazing company:
                     LiNC. Click the link below for to send me an email. I can’t wait.
                 </div>
-                <div class="btn">
-                    Schedule A meeting
-                    <a rel="noopener" class="m-3 socialIcon" href="mailto:vjp.maximus@gmail.com" target="_blank">
-                        <picture>
-                            <source type="image/webp" srcset="assets/images/mediaIcons/webp/mail.webp">
-                            <source type="image/png" srcset="assets/images/mediaIcons/png/mail.png">
-                            <img alt="" width="80">
-                        </picture>
+                <div class="spacer-5"></div>
+                <div class="underlineButton">
+                    <a rel="noopener" class="socialIcon" href="mailto:vjp.maximus@gmail.com" target="_blank">
+                        <div class="centerButton">
+                            Schedule A meeting
+                            <svg style="bottom: -4px; position: relative" xmlns="http://www.w3.org/2000/svg"
+                                 fill="white" width="20" height="20" viewBox="0 0 24 24">
+                                <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/>
+                            </svg>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -762,13 +780,7 @@
 </body>
 </html>
 
-<!--bootstrap-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/style/style.css">
-<link rel="stylesheet" href="assets/style/tempstyle.css">
-<link rel="stylesheet" href="assets/style/workExperience.css">
-<link rel="stylesheet" href="assets/style/projects.css">
+
 
 <!--temp smooth scroll-->
 <!--replace with native smooth scroll-->
@@ -789,3 +801,5 @@
 <script src="assets/js/hint.js"></script>
 
 
+<!--audio-->
+<script src="assets/js/audio.js"></script>

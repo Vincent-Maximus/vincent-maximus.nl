@@ -11,12 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/flickity.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/flickity.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audio/in.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audio/rollover.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/audio/sound-ambiant.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/audio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/customWork.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/customWork.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/workReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/workReservationSystem.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +34,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -52,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/slick-1.8.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/audio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\vincent\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.7660.42\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -60,18 +64,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\audio" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\general" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\webp" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\hub\mediaIcons" />
-      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\hub" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\audio" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\webp" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images" />
-      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\style" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -110,7 +114,8 @@
       <workItem from="1613373858795" duration="7715000" />
       <workItem from="1613724808180" duration="3529000" />
       <workItem from="1614167584718" duration="1304000" />
-      <workItem from="1614189225794" duration="1641000" />
+      <workItem from="1614189225794" duration="3497000" />
+      <workItem from="1617361657319" duration="2169000" />
     </task>
     <servers />
   </component>
@@ -131,72 +136,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1531" y="222" key="#Inspections" timestamp="1607590267786">
-      <screen x="72" y="0" width="2488" height="1080" />
-    </state>
-    <state x="1527" y="222" key="#Inspections/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605985510632" />
-    <state x="1531" y="222" key="#Inspections/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607590267786" />
-    <state x="1089" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607517023071">
-      <screen x="66" y="0" width="1554" height="1080" />
-    </state>
-    <state x="1706" y="342" key="#com.intellij.fileTypes.FileTypeChooser/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1607437369570" />
-    <state x="1708" y="342" key="#com.intellij.fileTypes.FileTypeChooser/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1605733604749" />
-    <state x="1712" y="342" key="#com.intellij.fileTypes.FileTypeChooser/2599.0.1581.1080/79.0.2481.1080@79.0.2481.1080" timestamp="1607203977386" />
-    <state x="1089" y="342" key="#com.intellij.fileTypes.FileTypeChooser/66.0.1554.1080/-2388.491.1365.913@66.0.1554.1080" timestamp="1607517023071" />
-    <state x="1607" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607034563708">
-      <screen x="72" y="0" width="2488" height="1080" />
-    </state>
-    <state x="1607" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607034563708" />
-    <state x="1027" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.0.1548.1080@72.0.1548.1080" timestamp="1606987362294" />
-    <state x="1265" y="277" key="FileChooserDialogImpl" timestamp="1613117168883">
-      <screen x="63" y="0" width="1857" height="1080" />
-    </state>
-    <state x="1265" y="277" key="FileChooserDialogImpl/1951.32.1589.1080/63.0.1857.1080/726.1080.1194.794@63.0.1857.1080" timestamp="1613117168883" />
-    <state x="1272" y="277" key="FileChooserDialogImpl/1962.49.1578.1080/84.0.1836.1080/-468.1086.1194.794@84.0.1836.1080" timestamp="1612945813511" />
-    <state x="1714" y="298" key="FileChooserDialogImpl/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1605875496995" />
-    <state x="1714" y="298" key="FileChooserDialogImpl/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605985895403" />
-    <state x="1716" y="298" key="FileChooserDialogImpl/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1607934451526" />
-    <state x="1682" y="277" key="FileChooserDialogImpl/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1608727842915" />
-    <state x="1073" y="277" key="FileChooserDialogImpl/69.0.1551.1080/-2388.491.1194.794@69.0.1551.1080" timestamp="1612883790756" />
-    <state x="1096" y="298" key="FileChooserDialogImpl/72.0.1548.1080/-1194.491.1194.794/627.-1050.1344.800@72.0.1548.1080" timestamp="1607690219240" />
-    <state x="1755" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607034079850">
-      <screen x="72" y="0" width="2488" height="1080" />
-    </state>
-    <state x="1755" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1607034079850" />
-    <state x="747" y="150" width="616" height="801" key="find.popup" timestamp="1614192166800">
-      <screen x="71" y="0" width="1549" height="1080" />
-    </state>
-    <state x="2644" y="150" width="631" height="801" key="find.popup/1951.0.1589.1080/62.0.1858.1080/726.1080.1194.794@1951.0.1589.1080" timestamp="1613729481242" />
-    <state x="874" y="150" width="737" height="682" key="find.popup/1951.32.1589.1080/63.0.1857.1080/726.1080.1194.794@63.0.1857.1080" timestamp="1613054271363" />
-    <state x="874" y="150" width="737" height="682" key="find.popup/1951.49.1589.1080/63.0.1857.1080/-468.1086.1194.794@63.0.1857.1080" timestamp="1612951663656" />
-    <state x="875" y="150" width="737" height="682" key="find.popup/1952.32.1588.1080/64.0.1856.1080/726.1080.1194.794@64.0.1856.1080" timestamp="1613397427688" />
-    <state x="878" y="150" width="734" height="801" key="find.popup/1956.0.1584.1080/72.0.1848.1080/726.1088.1194.794@72.0.1848.1080" timestamp="1614167664961" />
-    <state x="1152" y="150" width="991" height="682" key="find.popup/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1613484171337" />
-    <state x="1128" y="259" width="985" height="682" key="find.popup/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605993047988" />
-    <state x="1644" y="273" width="650" height="682" key="find.popup/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1607935987761" />
-    <state x="1132" y="259" width="983" height="682" key="find.popup/2595.0.1585.1080/70.0.2490.1080@70.0.2490.1080" timestamp="1606223464658" />
-    <state x="1158" y="150" width="987" height="682" key="find.popup/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1609253757030" />
-    <state x="1127" y="259" width="985" height="682" key="find.popup/62.0.2498.1080/2560.0.1620.1040@62.0.2498.1080" timestamp="1605909164408" />
-    <state x="729" y="259" width="612" height="682" key="find.popup/67.0.1553.1080/-2388.491.1365.913@67.0.1553.1080" timestamp="1605792155410" />
-    <state x="1008" y="273" width="612" height="682" key="find.popup/67.0.1553.1080@67.0.1553.1080" timestamp="1605792009507" />
-    <state x="732" y="259" width="614" height="682" key="find.popup/71.0.1549.1080/-2388.491.1365.913@71.0.1549.1080" timestamp="1606481302542" />
-    <state x="747" y="150" width="616" height="801" key="find.popup/71.0.1549.1080@71.0.1549.1080" timestamp="1614192166800" />
-    <state x="748" y="150" width="615" height="682" key="find.popup/72.0.1548.1080@72.0.1548.1080" timestamp="1607008073236" />
-    <state x="1580" y="254" width="672" height="677" key="run.anything.popup" timestamp="1608727952468">
-      <screen x="72" y="0" width="2488" height="1080" />
-    </state>
-    <state x="1576" y="254" width="674" height="677" key="run.anything.popup/2591.0.1589.1080/62.0.2498.1080@62.0.2498.1080" timestamp="1607442007313" />
-    <state x="1576" y="254" width="672" height="677" key="run.anything.popup/2591.0.1589.1080/63.0.2497.1080@63.0.2497.1080" timestamp="1605989563780" />
-    <state x="1578" y="254" key="run.anything.popup/2593.0.1587.1080/67.0.2493.1080@67.0.2493.1080" timestamp="1605715870245" />
-    <state x="1579" y="254" width="671" height="677" key="run.anything.popup/2595.0.1585.1080/70.0.2490.1080@70.0.2490.1080" timestamp="1606223638769" />
-    <state x="1580" y="254" width="672" height="677" key="run.anything.popup/2596.0.1584.1080/72.0.2488.1080@72.0.2488.1080" timestamp="1608727952468" />
-    <state x="948" y="255" width="420" height="677" key="run.anything.popup/66.0.1554.1080/-2388.491.1365.913@66.0.1554.1080" timestamp="1607517897762" />
-    <state x="949" y="256" width="419" height="677" key="run.anything.popup/72.0.1548.1080/-1194.491.1194.794/627.-1050.1344.800@72.0.1548.1080" timestamp="1607688992527" />
-    <state x="507" y="236" width="672" height="678" key="search.everywhere.popup" timestamp="1605797979641">
-      <screen x="67" y="0" width="1553" height="1080" />
-    </state>
-    <state x="507" y="236" width="672" height="678" key="search.everywhere.popup/67.0.1553.1080/-2388.491.1365.913@67.0.1553.1080" timestamp="1605797979641" />
   </component>
 </project>
