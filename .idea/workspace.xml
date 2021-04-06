@@ -11,16 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/audio/in.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/rollover.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/audio/sound-ambiant.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/audio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work/workReservationSystem.html" beforeDir="false" afterPath="$PROJECT_DIR$/work/workReservationSystem.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +109,8 @@
       <workItem from="1613724808180" duration="3529000" />
       <workItem from="1614167584718" duration="1304000" />
       <workItem from="1614189225794" duration="3497000" />
-      <workItem from="1617361657319" duration="2169000" />
+      <workItem from="1617361657319" duration="2881000" />
+      <workItem from="1617699138845" duration="109000" />
     </task>
     <servers />
   </component>
