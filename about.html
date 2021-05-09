@@ -5,20 +5,22 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P61X41HKWY"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-P61X41HKWY');
     </script>
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="w2JYZ5qVhXJEJs4Rkz4NDIfVoi4aulFNhSYPF_Quxa0"/>
     <title>About | Vincent Maximus</title>
     <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
 </head>
 <body>
-
-
-
 
 
 <link rel="stylesheet" href="assets/style/bootstrap.css">
@@ -29,6 +31,11 @@
 <link rel="stylesheet" href="assets/style/workExperience.css">
 <link rel="stylesheet" href="assets/style/projects.css">
 <link rel="stylesheet" href="assets/style/customAbout.css">
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="assets/style/fancybox/jquery.fancybox.min.css"/>
+<script src="assets/js/fancybox/jquery.fancybox.min.js"></script>
 
 
 <div class="menu">
@@ -78,7 +85,8 @@
         </div>
         <div class="socialIcons contextCenter">
 
-            <a id="youtube" rel="noopener" class="m-3 socialIcon" href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ"
+            <a id="youtube" rel="noopener" class="m-3 socialIcon"
+               href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ"
                target="_blank">
                 <picture>
                     <source type="image/webp" srcset="assets/images/mediaIcons/webp/youtube.webp">
@@ -87,7 +95,8 @@
                 </picture>
             </a>
 
-            <a id="instagram" rel="noopener" class="m-3 socialIcon" href="https://www.instagram.com/vincent.maximus/" target="_blank">
+            <a id="instagram" rel="noopener" class="m-3 socialIcon" href="https://www.instagram.com/vincent.maximus/"
+               target="_blank">
                 <picture>
                     <source type="image/webp" srcset="assets/images/mediaIcons/webp/instagram.webp">
                     <source type="image/png" srcset="assets/images/mediaIcons/png/instagram.png">
@@ -105,7 +114,8 @@
                 </picture>
             </a>
 
-            <a id="linkedin" rel="noopener" class="m-3 socialIcon" href="https://www.linkedin.com/in/vincent-maximus" target="_blank">
+            <a id="linkedin" rel="noopener" class="m-3 socialIcon" href="https://www.linkedin.com/in/vincent-maximus"
+               target="_blank">
                 <picture>
                     <source type="image/webp" srcset="assets/images/mediaIcons/webp/linkedin.webp">
                     <source type="image/png" srcset="assets/images/mediaIcons/png/linkedin.png">
@@ -113,7 +123,8 @@
                 </picture>
             </a>
 
-            <a id="github" rel="noopener" class="m-3 socialIcon" href="https://github.com/Vincent-Maximus" target="_blank">
+            <a id="github" rel="noopener" class="m-3 socialIcon" href="https://github.com/Vincent-Maximus"
+               target="_blank">
                 <picture>
                     <source type="image/webp" srcset="assets/images/mediaIcons/webp/github.webp">
                     <source type="image/png" srcset="assets/images/mediaIcons/png/github.png">
@@ -121,7 +132,8 @@
                 </picture>
             </a>
 
-            <a id="whatsapp" rel="noopener" class="m-3 socialIcon" href="https://wa.me/310631521355?text=Hi%20Vincent" target="_blank">
+            <a id="whatsapp" rel="noopener" class="m-3 socialIcon" href="https://wa.me/310631521355?text=Hi%20Vincent"
+               target="_blank">
                 <picture>
                     <source type="image/webp" srcset="assets/images/mediaIcons/webp/whatsapp.webp">
                     <source type="image/png" srcset="assets/images/mediaIcons/png/whatsapp.png">
@@ -146,57 +158,94 @@
 <div class="m-0 p-0">
     <div class="row m-0 p-0">
         <div class="col-md-4 p-0">
-            <picture>
-                <source type="image/webp" srcset="assets/images/about/webp/codie.webp">
-                <source type="image/jpg" srcset="assets/images/about/jpg/codie.jpg">
-                <img alt="" width="100%">
-            </picture>
+
+            <a data-fancybox="gallery" href="assets/images/about/jpg/codie.jpg">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/about/webp/codie.webp">
+                    <source type="image/jpg" srcset="assets/images/about/jpg/codie.jpg">
+                    <img alt="" width="100%">
+                </picture>
+            </a>
         </div>
         <div class="col-md-4 p-0">
-            <picture>
-                <source type="image/webp" srcset="assets/images/about/webp/photography.webp">
-                <source type="image/jpg" srcset="assets/images/about/jpg/photography.jpg">
-                <img alt="" width="100%">
-            </picture>
+            <a data-fancybox="gallery" href="assets/images/about/jpg/photography.jpg">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/about/webp/photography.webp">
+                    <source type="image/jpg" srcset="assets/images/about/jpg/photography.jpg">
+                    <img alt="" width="100%">
+                </picture>
+            </a>
         </div>
         <div class="col-md-4 p-0">
-            <picture>
-                <source type="image/webp" srcset="assets/images/about/webp/music.webp">
-                <source type="image/jpg" srcset="assets/images/about/jpg/music.jpg">
-                <img alt="" width="100%">
-            </picture>
+            <a data-fancybox="gallery" href="assets/images/about/jpg/music.jpg">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/about/webp/music.webp">
+                    <source type="image/jpg" srcset="assets/images/about/jpg/music.jpg">
+                    <img alt="" width="100%">
+                </picture>
+            </a>
         </div>
 
         <div class="col-md-4 p-0">
-            <picture>
-                <source type="image/webp" srcset="assets/images/about/webp/art.webp">
-                <source type="image/jpg" srcset="assets/images/about/jpg/art.jpg">
-                <img alt="" width="100%">
-            </picture>
+            <a data-fancybox="gallery" href="assets/images/about/jpg/art.jpg">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/about/webp/art.webp">
+                    <source type="image/jpg" srcset="assets/images/about/jpg/art.jpg">
+                    <img alt="" width="100%">
+                </picture>
+            </a>
         </div>
         <div class="col-md-4 p-0">
-            <picture>
-                <source type="image/webp" srcset="assets/images/about/webp/design.webp">
-                <source type="image/jpg" srcset="assets/images/about/jpg/design.jpg">
-                <img alt="" width="100%">
-            </picture>
+            <a data-fancybox="gallery" href="assets/images/about/jpg/design.jpg">
+
+                <picture>
+                    <source type="image/webp" srcset="assets/images/about/webp/design.webp">
+                    <source type="image/jpg" srcset="assets/images/about/jpg/design.jpg">
+                    <img alt="" width="100%">
+                </picture>
+            </a>
         </div>
         <div class="col-md-4 p-0">
-            <picture>
-                <source type="image/webp" srcset="assets/images/about/webp/dreamcar.webp">
-                <source type="image/jpg" srcset="assets/images/about/jpg/dreamcar.jpg">
-                <img alt="" width="100%">
-            </picture>
+            <a data-fancybox="gallery" href="assets/images/about/jpg/dreamcar.jpg">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/about/webp/dreamcar.webp">
+                    <source type="image/jpg" srcset="assets/images/about/jpg/dreamcar.jpg">
+                    <img alt="" width="100%">
+                </picture>
+            </a>
         </div>
     </div>
 </div>
 
-        <!--spacing-->
+<!--spacing-->
+<div class="spacer-15"></div>
+<div class="mapouter">
+    <div class="gmap_canvas">
+        <iframe width="100%" height="500" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=doormanlaan%2054&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <a href="https://www.whatismyip-address.com/divi-discount/"></a><br>
+        <style>.mapouter {
+            position: relative;
+            text-align: right;
+            height: 500px;
+            width: 100%;
+        }</style>
+        <a href="https://www.embedgooglemap.net">google map on web site</a>
+        <style>.gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            height: 500px;
+            width: 100%;
+        }</style>
+    </div>
+</div>
+
 <div class="spacer-15"></div>
 
 
 <div class="project color-blue">
-    <div class="amazingGuyBox socialContextHolder">
+    <div class="socialContextHolder">
         <div class="wideProjectTitle contextCenter">
             What I’ve done & What I can do
         </div>
@@ -254,7 +303,8 @@
     <div class="row m-0">
         <div class="col-sm p-0">
             <div class="contextCenter color-black pt-5 pb-5">
-                <a class="m-3 footerSocialIcon" rel="noopener"  href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ"
+                <a class="m-3 footerSocialIcon" rel="noopener"
+                   href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ"
                    target="_blank">
                     <picture>
                         <source type="image/webp" srcset="assets/images/mediaIcons/webp/youtube.webp">
@@ -263,7 +313,8 @@
                     </picture>
                 </a>
 
-                <a class="m-3 footerSocialIcon" rel="noopener"  href="https://www.instagram.com/vincent.maximus/" target="_blank">
+                <a class="m-3 footerSocialIcon" rel="noopener" href="https://www.instagram.com/vincent.maximus/"
+                   target="_blank">
                     <picture>
                         <source type="image/webp" srcset="assets/images/mediaIcons/webp/instagram.webp">
                         <source type="image/png" srcset="assets/images/mediaIcons/png/instagram.png">
@@ -281,7 +332,8 @@
                     </picture>
                 </a>
 
-                <a class="m-3 footerSocialIcon" rel="noopener"  href="https://www.linkedin.com/in/vincent-maximus" target="_blank">
+                <a class="m-3 footerSocialIcon" rel="noopener" href="https://www.linkedin.com/in/vincent-maximus"
+                   target="_blank">
                     <picture>
                         <source type="image/webp" srcset="assets/images/mediaIcons/webp/linkedin.webp">
                         <source type="image/png" srcset="assets/images/mediaIcons/png/linkedin.png">
@@ -289,7 +341,8 @@
                     </picture>
                 </a>
 
-                <a class="m-3 footerSocialIcon" rel="noopener"  href="https://github.com/Vincent-Maximus" target="_blank">
+                <a class="m-3 footerSocialIcon" rel="noopener" href="https://github.com/Vincent-Maximus"
+                   target="_blank">
                     <picture>
                         <source type="image/webp" srcset="assets/images/mediaIcons/webp/github.webp">
                         <source type="image/png" srcset="assets/images/mediaIcons/png/github.png">
@@ -297,7 +350,7 @@
                     </picture>
                 </a>
 
-                <a class="m-3 footerSocialIcon" rel="noopener"  href="mailto:vjp.maximus@gmail.com" target="_blank">
+                <a class="m-3 footerSocialIcon" rel="noopener" href="mailto:vjp.maximus@gmail.com" target="_blank">
                     <picture>
                         <source type="image/webp" srcset="assets/images/mediaIcons/webp/mail.webp">
                         <source type="image/png" srcset="assets/images/mediaIcons/png/mail.png">
@@ -327,7 +380,6 @@
         </div>
     </div>
 </div>
-
 
 
 </body>

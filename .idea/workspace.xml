@@ -11,10 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/js/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/fancybox/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/fancybox/jquery.fancybox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/0-not even alpha worthy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/0-not even alpha worthy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/smoothScroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/audio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\vincent\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\202.7660.42\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -58,18 +64,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\audio" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\general" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\webp" />
-      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\hub\mediaIcons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\style\fancybox" />
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\js\fancybox" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\audio" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\webp" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy" />
-      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
-      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,7 +118,10 @@
       <workItem from="1617361657319" duration="2881000" />
       <workItem from="1617699138845" duration="233000" />
       <workItem from="1618761438243" duration="1936000" />
-      <workItem from="1619524030558" duration="185000" />
+      <workItem from="1619524030558" duration="322000" />
+      <workItem from="1619524396359" duration="110000" />
+      <workItem from="1619532126103" duration="1250000" />
+      <workItem from="1620571478432" duration="1582000" />
     </task>
     <servers />
   </component>
@@ -132,6 +141,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="prettified menu, and menu links" />
+    <option name="LAST_COMMIT_MESSAGE" value="prettified menu, and menu links" />
   </component>
 </project>
