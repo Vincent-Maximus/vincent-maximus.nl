@@ -50,6 +50,14 @@ function emptybutton() {
 
 
 
+function LiNC() {
+    Swal.fire({
+        title: "Junior Full Stack Web Developer",
+        text: "LiNC online design & marketing,      Internship, Tilburg" ,
+        imageUrl: 'assets/images/homepage/experience/0_linc/temp.linc.jpg',
+    });
+}
+
 function ICT() {
     Swal.fire({
         title: "ICT Application & Media Development",

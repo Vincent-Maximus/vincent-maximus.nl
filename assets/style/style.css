@@ -181,8 +181,16 @@ ul.topnav li.right {
 
 @media screen and (max-width: 600px) {
     .thingsICallMyself {
-        font-size: 1.2em;
-        width: 300px;
+        font-size: 1.4em;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        width: 95%;
+        padding-top: 14px;
+        text-align: center;
+        position: relative;
+        left: auto;
+        transform: none;
+
     }
 }
 
