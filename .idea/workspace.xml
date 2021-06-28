@@ -11,12 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/8_fontys_university/fontys-building.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/8_fontys_university/fontys-building.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/sweetAlert2.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/sweetAlert2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +121,7 @@
       <workItem from="1620629760715" duration="793000" />
       <workItem from="1620676352871" duration="6486000" />
       <workItem from="1620718551734" duration="2557000" />
-      <workItem from="1624916839952" duration="4000000" />
+      <workItem from="1624916839952" duration="4217000" />
     </task>
     <servers />
   </component>
