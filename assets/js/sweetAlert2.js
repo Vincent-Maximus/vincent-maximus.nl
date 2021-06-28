@@ -57,6 +57,13 @@ function LiNC() {
         imageUrl: 'assets/images/homepage/experience/0_linc/temp.linc.jpg',
     });
 }
+function VisualCapture() {
+    Swal.fire({
+        title: "Photographer & Web Designer",
+        text: "Visual Capture will capture your vision. Multiple people within my network asked me to build them a website. After creating it and delivering the first web design for an already established company, I came to the idea that creating a company was a logical thing to do. Add this with my enthusiasm/ skills for photography, and voila Visual Capture was created. " ,
+        imageUrl: 'assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.jpg',
+    });
+}
 
 function ICT() {
     Swal.fire({
