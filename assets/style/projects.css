@@ -120,6 +120,11 @@ hr {
     color: var(--white);
     margin: 3rem;
 }
+.projectFullWidth {
+    position: relative;
+    color: var(--white);
+    margin: 3rem 0;
+}
 
 .containerHeight {
     padding-top: 100%;
@@ -211,6 +216,8 @@ hr {
     text-align: center;
     padding: 5px;
     border-radius: 25px;
+    position: absolute;
+    z-index: 2;
 }
 
 .musicImg {
@@ -238,6 +245,11 @@ hr {
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .musicContextHolder {
+        width: 80%;
+    }
+}
 @media screen and (max-width: 768px) {
     .socialIcons.contextCenter {
         display: block;
@@ -318,6 +330,7 @@ hr {
 }
 
 @media screen and (max-width: 992px) {
+
     .containerHeight {
         padding-top: 0;
     }
