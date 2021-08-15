@@ -245,12 +245,18 @@ hr {
     }
 }
 
+@media screen and (max-width: 1090px) {
+    .roundBorderButton {
+        z-index: 0;
+    }
+}
 @media screen and (max-width: 1300px) {
     .musicContextHolder {
         width: 80%;
     }
 }
 @media screen and (max-width: 768px) {
+
     .socialIcons.contextCenter {
         display: block;
 
