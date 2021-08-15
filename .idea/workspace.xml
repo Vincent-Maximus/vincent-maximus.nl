@@ -11,8 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/about/webp/10IMG_2650.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/jpg/art.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/jpg/codie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/jpg/design.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/jpg/dreamcar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/jpg/music.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/jpg/photography.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/webp/art.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/webp/codie.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/webp/design.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/webp/dreamcar.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/webp/music.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about/webp/photography.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/projects/intro/work-portfolio.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/homepage/amazing-guy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/about/webp" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -60,11 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\about\webp" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\homepage\amazing-guy" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\audio" />
       <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\general" />
-      <recent name="C:\Users\vincent\Documents\#eigen project\vincent-maximus.github.io\0-not even alpha worthy\assets\images\work\reservation_system_nostium\images\jpg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\homepage\music\optimized\png" />
@@ -128,7 +142,7 @@
       <workItem from="1628165061719" duration="5000" />
       <workItem from="1628238033869" duration="596000" />
       <workItem from="1628946942259" duration="464000" />
-      <workItem from="1628978585996" duration="6395000" />
+      <workItem from="1628978585996" duration="9190000" />
     </task>
     <servers />
   </component>
