@@ -2,6 +2,8 @@
     --green: #6BBF46;
     --blue: #3854A6;
     --yellow: #F7E161;
+    --red: #E64B42;
+    --purple: #7946BF;
     /*day white mode*/
     --white: #F5F5F7;
     --dark: #121313;
@@ -119,6 +121,13 @@ ul.topnav li a {
     color: var(--green);
     text-decoration: underline;
 }
+.love a{
+    color: var(--white) !important;
+}
+.love a:hover {
+    color: var(--red) !important;
+    text-decoration: underline;
+}
 
 .work a:hover {
     color: var(--blue);
@@ -139,6 +148,10 @@ ul.topnav li.right {
     ul.topnav li.right,
     ul.topnav li {
         float: none;
+    }
+
+    .love a{
+        display: none !important;
     }
 }
 

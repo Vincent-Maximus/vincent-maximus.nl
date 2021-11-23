@@ -2,7 +2,8 @@
     width: 100%;
     overflow-x: scroll;
     display: flex;
-    padding: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .musicCard {

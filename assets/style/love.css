@@ -1,0 +1,42 @@
+
+.hidden {
+    color: var(--yellow);
+}
+
+.smallText {
+    font: 0.4em Medium, sans-serif !important;
+}
+
+@media screen and (max-width: 768px) {
+    .wideProjectTitle {
+        font: 1.8em Bold, sans-serif;
+    }
+}
+
+.socialContextHolder {
+    min-height: auto
+}
+
+.doubleRoundBorderButton {
+    cursor: pointer;
+    border: 0.12em solid var(--white);
+    color: var(--white);
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1090px) {
+    .doubleRoundBorderButton {
+        z-index: 0;
+    }
+}
+
+#flavoursContainer {
+    position: absolute;
+    bottom: -30% !important;
+}
+
