@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="prettified menu, and menu links">
+      <change afterPath="$PROJECT_DIR$/assets/images/general/love_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/how_do_i_look.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love.html" beforeDir="false" afterPath="$PROJECT_DIR$/love.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +29,17 @@
         <option value="TypeScript File" />
         <option value="Sass File" />
         <option value="SCSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1f6FvfSp6pgUtDjKuyvG44NRsXb" />
   <component name="ProjectLevelVcsManager">
@@ -51,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../00 - Company/01 - Company website" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/general" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -60,18 +64,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\general" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\homepage\music\optimized\webp" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\about\webp" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\homepage\amazing-guy" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl" />
-      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\audio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\general" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\mediaIcons\webp" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\mediaIcons\png" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\love\webp" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\love\png" />
-      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\resume" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,7 +140,8 @@
       <workItem from="1636031811508" duration="406000" />
       <workItem from="1637606847033" duration="12997000" />
       <workItem from="1637675205181" duration="95000" />
-      <workItem from="1637675471618" duration="677000" />
+      <workItem from="1637675471618" duration="1300000" />
+      <workItem from="1643406602548" duration="5324000" />
     </task>
     <servers />
   </component>
@@ -153,7 +158,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prettified menu, and menu links" />

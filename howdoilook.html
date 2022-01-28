@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>How Do I Look? | Vincent Maximus</title>
+
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <link rel="stylesheet" href="assets/style/fonts.css">
+    <meta name="google-site-verification" content="w2JYZ5qVhXJEJs4Rkz4NDIfVoi4aulFNhSYPF_Quxa0"/>
+
+    <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="assets/style/bootstrap.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/projects.css">
+</head>
+<body>
+
+<div id="loading">
+    <img id="loading-image" src="assets/images/general/love_loading.gif" alt="Loading..."/>
+    <div class="love-loading-text">
+        <span id="target"></span>
+    </div>
+</div>
+
+
+<div class="color-white">
+    <div class="socialContextHolder">
+        <div class="contextCenter hide-this">
+            Computer, Computer on my phone, who's the prettiest of them all.
+        </div>
+        <div class="wideProjectTitle contextCenter hide-this">
+            So then, am I beautiful?
+        </div>
+        <div class="spacer-5 hide-this"></div>
+        <div class="contextCenter hide-this">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="optionButton color-red"><a class="noAWhite color-red" id="find_out">Click here to
+                            find out</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-5"></div>
+        <div class="contextCenter disabled" id="comment" style="display: none">
+            Aaaaaand... you are
+        </div>
+        <div class="spacer-5"></div>
+        <div class="wideProjectTitle contextCenter" id="answer" style="display: none">
+            <span class="spanCenter" id="target2"></span>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+
+<style>
+    #loading {
+        position: fixed;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 100;
+        z-index: 99;
+        background-color: #fff;
+    }
+
+    #loading-image {
+        z-index: 100;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        object-fit: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .love-loading-text {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        bottom: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 100;
+        font: 1.8em Bold, sans-serif;
+    }
+
+    .spanCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 100%;
+        text-align: center;
+    }
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    $("#find_out").click(function () {
+        $('#loading').show();
+        $(".hide-this").css("display", "none",);
+
+        setTimeout(() =>
+                $('#loading').hide(),
+            5400);
+        // 100);
+
+
+        $("#answer").css("display", "grid",);
+        $("#comment").css("display", "grid",);
+    });
+</script>
+
+
+<script>
+    (function ($) {
+        // writes the string
+        //
+        // @param jQuery $target
+        // @param String str
+        // @param Numeric cursor
+        // @param Numeric delay
+        // @param Function cb
+        // @return void
+        function typeString($target, str, cursor, delay, cb) {
+            $target.html(function (_, html) {
+                return html + str[cursor];
+            });
+
+            if (cursor < str.length - 1) {
+                setTimeout(function () {
+                    typeString($target, str, cursor + 1, delay, cb);
+                }, delay);
+            } else {
+                cb();
+            }
+        }
+
+        // clears the string
+        //
+        // @param jQuery $target
+        // @param Numeric delay
+        // @param Function cb
+        // @return void
+        function deleteString($target, delay, cb) {
+            var length;
+
+            $target.html(function (_, html) {
+                length = html.length;
+                return html.substr(0, length - 1);
+            });
+
+            if (length > 1) {
+                setTimeout(function () {
+                    deleteString($target, delay, cb);
+                }, delay);
+            } else {
+                cb();
+            }
+        }
+
+        // jQuery hook
+        $.fn.extend({
+            teletype: function (opts) {
+                var settings = $.extend({}, $.teletype.defaults, opts);
+
+                return $(this).each(function () {
+                    (function loop($tar, idx) {
+                        // type
+                        typeString($tar, settings.text[idx], 0, settings.delay, function () {
+                            // delete
+                            setTimeout(function () {
+                                deleteString($tar, settings.delay, function () {
+                                    loop($tar, (idx + 1) % settings.text.length);
+                                });
+                            }, settings.pause);
+                        });
+
+                    }($(this), 0));
+                });
+            }
+        });
+
+        // plugin defaults
+        $.extend({
+            teletype: {
+                defaults: {
+                    delay: 20,
+                    pause: 970,
+                    text: []
+                }
+            }
+        });
+    }(jQuery));
+
+
+    /*** init ***/
+    $("#find_out").click(function () {
+        $('#target').teletype({
+            text: [
+                "Scanning face",
+                "Uploading to daddy",
+                "Reserving Daddy's opinion",
+                "Building interface...",
+            ]
+        });
+    });
+
+
+
+</script>
+
+
+<script>
+    $("#find_out").click(function () {
+    (function ($) {
+        // writes the string
+        //
+        // @param jQuery $target
+        // @param String str
+        // @param Numeric cursor
+        // @param Numeric delay
+        // @param Function cb
+        // @return void
+        function typeString($target, str, cursor, delay, cb) {
+            $target.html(function (_, html) {
+                return html + str[cursor];
+            });
+
+            if (cursor < str.length - 1) {
+                setTimeout(function () {
+                    typeString($target, str, cursor + 1, delay, cb);
+                }, delay);
+            } else {
+                cb();
+            }
+        }
+
+        // clears the string
+        //
+        // @param jQuery $target
+        // @param Numeric delay
+        // @param Function cb
+        // @return void
+        function deleteString($target, delay, cb) {
+            var length;
+
+            $target.html(function (_, html) {
+                length = html.length;
+                return html.substr(0, length - 1);
+            });
+
+            if (length > 1) {
+                setTimeout(function () {
+                    deleteString($target, delay, cb);
+                }, delay);
+            } else {
+                cb();
+            }
+        }
+
+        // jQuery hook
+        $.fn.extend({
+            teletype: function (opts) {
+                var settings = $.extend({}, $.teletype.defaults, opts);
+
+                return $(this).each(function () {
+                    (function loop($tar, idx) {
+                        // type
+                        typeString($tar, settings.text[idx], 0, settings.delay, function () {
+                            // delete
+                            setTimeout(function () {
+                                deleteString($tar, settings.delay, function () {
+                                    loop($tar, (idx + 1) % settings.text.length);
+                                });
+                            }, settings.pause);
+                        });
+
+                    }($(this), 0));
+                });
+            }
+        });
+
+        // plugin defaults
+        $.extend({
+            teletype: {
+                defaults: {
+                    delay: 100,
+                    pause: 8000,
+                    text: []
+                }
+            }
+        });
+    }(jQuery));
+
+    /*** init ***/
+    // $("#find_out").click(function () {
+        setTimeout(() =>
+                $('#target2').teletype({
+                    text: [
+                        "You are very very very, Yes you heard that well... very very beautiful xX <3.",
+                    ]
+                }),
+            5400);
+    });
+    // });
+</script>
+
+
+
