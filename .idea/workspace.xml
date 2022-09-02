@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="prettified menu, and menu links">
-      <change afterPath="$PROJECT_DIR$/assets/images/homepage/intro/intro_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/homepage/intro/intro_image.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/work/general/me_profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/work/general/me_profile.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +72,11 @@
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\about\webp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/work/General" />
       <recent name="$PROJECT_DIR$/assets/images/homepage/intro" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\general" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\mediaIcons\webp" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\mediaIcons\png" />
-      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\love\webp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -144,7 +144,7 @@
       <workItem from="1637675471618" duration="1300000" />
       <workItem from="1643406602548" duration="5844000" />
       <workItem from="1644005623278" duration="347000" />
-      <workItem from="1662126163736" duration="285000" />
+      <workItem from="1662126163736" duration="1097000" />
     </task>
     <servers />
   </component>
