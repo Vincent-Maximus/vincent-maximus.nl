@@ -11,10 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="prettified menu, and menu links">
-      <change afterPath="$PROJECT_DIR$/assets/images/work/general/me_profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/work/general/me_profile.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/9_motorkleding_store/Motorkleding-store.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/9_motorkleding_store/Motorkleding-store.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/workExperience.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/workExperience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/howdoilook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/love.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loveyou.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/homepage/intro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/homepage/experience/9_motorkleding_store" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -65,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/homepage/experience/9_motorkleding_store" />
       <recent name="$PROJECT_DIR$/assets/images/homepage/intro" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\general" />
       <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\homepage\music\optimized\webp" />
-      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\about\webp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/work/General" />
@@ -144,7 +148,7 @@
       <workItem from="1637675471618" duration="1300000" />
       <workItem from="1643406602548" duration="5844000" />
       <workItem from="1644005623278" duration="347000" />
-      <workItem from="1662126163736" duration="1097000" />
+      <workItem from="1662126163736" duration="4212000" />
     </task>
     <servers />
   </component>
