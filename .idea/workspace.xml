@@ -11,19 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="prettified menu, and menu links">
-      <change afterPath="$PROJECT_DIR$/assets/images/about/jpg/02Me_in_Porsche.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/jpg/03animeMe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/jpg/08Me_on_Motorcycle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/webp/02Me_in_Porsche.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/webp/03animeMe.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/about/webp/08Me_on_Motorcycle.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/profilePicture/me.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/about/profilePicture/me.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/about/profilePicture/me.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/customAbout.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/customAbout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +147,7 @@
       <workItem from="1662898716047" duration="619000" />
       <workItem from="1662905828547" duration="3000" />
       <workItem from="1662974182281" duration="279000" />
-      <workItem from="1662974472968" duration="4712000" />
+      <workItem from="1662974472968" duration="5574000" />
     </task>
     <servers />
   </component>

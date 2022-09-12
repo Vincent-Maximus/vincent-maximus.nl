@@ -14,7 +14,7 @@
 
         gtag('config', 'G-P61X41HKWY');
     </script>
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="w2JYZ5qVhXJEJs4Rkz4NDIfVoi4aulFNhSYPF_Quxa0"/>
     <title>About | Vincent Maximus</title>
@@ -138,6 +138,65 @@
         And well, that’s me. If you need help with something, and think I would be a good fit, then let’s talk about it.
         Because maybe I can be of service.
     </p>
+
+    <div class="spacer-5"></div>
+
+    <a class="moreless-button">Read more</a>
+    <div class="moretext">
+
+
+        <div class="spacer-5"></div>
+
+        <h1>
+            Strengths
+        </h1>
+        <p>
+        <h5>Receptive</h5>
+        Vincent has strong opinions, but they are by no means closed-minded. he realizes the importance of allowing
+        others to express themselves fully. Even if he disagrees with someone, he acknowledges that person has the right
+        to tell their truth.<br><br>
+
+        <h5>Reliable</h5>
+        Few things bother Vincent more than the prospect of letting go of someone or someone they believe in. He can be
+        expected to live up to their commitments and responsibilities, even if it’s hard to do.<br><br>
+
+        <h5>Passionate</h5>
+        Vincent is by no means a boring doer of good. This guy is full of interests and love to pursue his hobbies,
+        whether it's photographing, sporting, racing, growing houseplants, or something else entirely. Therefore, he is
+        rarely finds himself at a loss for something interesting to do.<br><br>
+
+        <h5>Altruistic</h5>
+        Vincent has a strong desire to be a force for positive change. He believes that if he brings people together,
+        they can do a lot of good.<br><br>
+
+
+        <h5>Charismatic</h5>
+
+        Determined and inspiring, Vincent often finds his way into a leadership role. He rarely loses sight of his main
+        goal: to be of service to others.<br><br>
+        </p>
+        <div class="spacer-5"></div>
+        <p>
+        <h1>Weaknesses</h1>
+
+
+        <h5>Unrealistic</h5>
+        Vincent puts pressure on himself to right every wrong he encounters. But no matter how hard he strives.it just
+        isn’t realistic to solve all of the problems in the world.<br><br>
+
+        <h5>Condescending</h5>
+        Vincent enjoys teaching others, especially about the reasons and beliefs that are important to him. But
+        sometimes his attempt to “enlighten” others may come across as patronizing. Unfortunately, not the most
+        effective strategy to persuade others.<br><br>
+
+
+        <h5>Intense</h5>
+        When it comes to self-improvement, Vincent is rarely short of energy or determination. but he doesn’t recognize
+        that not everyone shares these qualities.
+        At times, he may push others to make changes that they aren’t ready for.<br><br>
+
+        </p>
+    </div>
 </div>
 
 
@@ -496,7 +555,16 @@
 </body>
 </html>
 
-
+<script>
+    $('.moreless-button').click(function() {
+        $('.moretext').slideToggle();
+        if ($('.moreless-button').text() == "Read more") {
+            $(this).text("Read less")
+        } else {
+            $(this).text("Read more")
+        }
+    });
+</script>
 
 
 
