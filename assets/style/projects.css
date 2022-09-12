@@ -71,6 +71,10 @@ hr {
     filter: invert(100%);
 }
 
+.socialIcon img{
+    width: 2.5em;
+}
+
 .socialIcon:hover {
     filter: invert(20%);
     position: relative;
@@ -268,6 +272,11 @@ hr {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .wideProjectTitle{
+        font: 2.4em Bold, sans-serif;
+    }
+}
 @media screen and (max-width: 768px) {
 
     .socialIcons.contextCenter {

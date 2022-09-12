@@ -1,4 +1,4 @@
-.aboutMeText{
+.aboutMeText {
     padding: 10px 0 65px;
     width: 75%;
     position: relative;
@@ -6,16 +6,47 @@
     transform: translate(-50%);
 }
 
-.whatCanIDoText{
+.whatCanIDoText {
     padding: 10px 0 65px;
-    width: 50%;
-    position: relative;
-    left: 48%;
-    transform: translate(-50%);
-}
-
-.centerButton{
+    width: 65%;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+}
+
+.centerButton {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.mobileTitle{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .mobileTitle{
+        display: block;
+    }
+
+    .whatCanIDoText {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 65px;
+        width: auto;
+        left: 0;
+        padding: 0;
+        position: relative;
+        transform: translate(0);
+    }
+
+    .aboutMeText {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+        left: 0;
+        padding: 0;
+        position: relative;
+        transform: translate(0);
+    }
 }
