@@ -153,7 +153,7 @@ hr {
 }
 
 .educationImg {
-    width: 75%;
+    width: 100%;
     bottom: -10%;
     left: 10%;
     position: absolute;
@@ -167,16 +167,15 @@ hr {
 
     .projectImg {
         width: 50%;
-        position: relative;
-        top: 45%;
-        left: 48%;
-        transform: translate(-50%, -50%);
+        position: absolute;
+        top: -20%;
+        left: 10%;
     }
 
     .educationImg {
-        width: 35%;
-        position: relative;
-        top: 45%;
+        width: 60%;
+        position: absolute;
+        top: 50%;
         left: 40%;
         transform: translate(-50%, -50%);
     }
@@ -372,7 +371,7 @@ hr {
     }
 
     .educationImg {
-        width: 55%;
+        width: 75%;
         position: relative;
         top: 45%;
         left: 50%;
