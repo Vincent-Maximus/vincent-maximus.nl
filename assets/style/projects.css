@@ -154,9 +154,13 @@ hr {
 
 .educationImg {
     width: 100%;
-    bottom: -10%;
+    top: -10%;
     left: 10%;
     position: absolute;
+    /*width: 100%;*/
+    /*bottom: -10%;*/
+    /*left: 10%;*/
+    /*position: absolute;*/
 }
 
 
