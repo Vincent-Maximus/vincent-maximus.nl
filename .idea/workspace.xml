@@ -14,8 +14,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="prettified menu, and menu links">
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/LinkedIn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/LinkedInwhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/instagram-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/mail-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/whatsapp-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/instagram-white.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/instagram.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/linkedin-white.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/linkedin.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/mail-white.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/mail.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/whatsapp-white.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/whatsapp.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/png/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/png/profile_picture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/webp/banner.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/webp/profile_picture.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/png/Website.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/png/Website.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/png/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/png/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/webp/Website.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/Website.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/webp/youtube.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/youtube.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/hub/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/hub/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hub.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +76,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="1f6FvfSp6pgUtDjKuyvG44NRsXb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,6 +91,7 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vincentmaximus/Documents/03 - Hobbies/01 - vincent-maximus.nl/vincent-maximus.nl/assets/images/hub",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,18 +101,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/hub" />
+      <recent name="$PROJECT_DIR$/assets/images/hub/images/webp" />
       <recent name="$PROJECT_DIR$/assets/images/about/profilePicture" />
       <recent name="$PROJECT_DIR$/assets/images/homepage/experience/9_motorkleding_store" />
       <recent name="$PROJECT_DIR$/assets/images/homepage/intro" />
-      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl" />
-      <recent name="C:\Users\vjpma\Documents\03 - Custom project\01 - vincent-maximus.nl\assets\images\general" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/hub/social/webp" />
+      <recent name="$PROJECT_DIR$/assets/images/hub/social/png" />
+      <recent name="$PROJECT_DIR$/assets/images/hub/images/png" />
       <recent name="$PROJECT_DIR$/assets/images/about/jpg" />
       <recent name="$PROJECT_DIR$/assets/images/about/webp" />
-      <recent name="$PROJECT_DIR$/assets/images/about/profilePicture" />
-      <recent name="$PROJECT_DIR$/assets/images/work/General" />
-      <recent name="$PROJECT_DIR$/assets/images/homepage/intro" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -162,7 +188,8 @@
       <workItem from="1662986679887" duration="4392000" />
       <workItem from="1667042022961" duration="56000" />
       <workItem from="1667503665871" duration="1144000" />
-      <workItem from="1697461499155" duration="1064000" />
+      <workItem from="1697461499155" duration="1099000" />
+      <workItem from="1702070344994" duration="4168000" />
     </task>
     <servers />
   </component>

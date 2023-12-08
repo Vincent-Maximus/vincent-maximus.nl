@@ -1,1 +1,133 @@
-html, body { height: 100%; text-align: center; background-color: #ffffff; font: 2.5em "Sofia Pro Black", sans-serif; color: #121313; margin: 0; } .text { font: 0.4em "Sofia Pro Medium", sans-serif; } .text-white { color: #F5F5F7 !important; } .bg-white { background-color: #F5F5F7; } .bg-green { background: #6BBF46 !important; } .bg-yellow { background: #F7E161 !important; } .bg-blue { background: #3854A6 !important; } a { color: #121313; text-decoration: none; } a:hover { color: #121313; text-decoration: none; } .menuBar { font-size: .4em; margin: .5em 0; padding-top: .3em; padding-bottom: .3em; } .profile-avatar { font-size: .4em; margin: .6em 0; padding-left: .8em; } .button { font-size: .4em; padding: .3em 1.6em; margin: .5em; } .title { position: absolute; left: 17%; top: 13%; line-height: 1; } .beautifulPerson { padding-top: 50px; text-align: right; } .infoBar { padding-top: 2.5%; padding-bottom: 2.5%; width: 100%; } .context { background-color: #F5F5F7; width: 100%; } .mediaIcons { margin-top: 25%; margin-bottom: 25%; } .footer { width: 100%; font-size: 0.6em; padding-top: 5%; padding-bottom: 5%; }
+html, body {
+    height: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    font: 2.5em "Sofia Pro Black", sans-serif;
+    color: #121313;
+    margin: 0;
+}
+
+.text {
+    font: 0.4em "Sofia Pro Medium", sans-serif;
+}
+
+.text-white {
+    color: #F5F5F7 !important;
+}
+
+.bg-white {
+    background-color: #F5F5F7;
+}
+
+.bg-green {
+    background: #6BBF46 !important;
+}
+
+.bg-yellow {
+    background: #F7E161 !important;
+}
+
+.bg-blue {
+    background: #0A162B !important;
+}
+
+a {
+    color: #121313;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #121313;
+    text-decoration: none;
+}
+
+.menuBar {
+    font-size: .4em;
+    margin: .5em 0;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+.profile-avatar {
+    font-size: .4em;
+    margin: .6em 0;
+    padding-left: .8em;
+}
+
+.button {
+    font-size: .4em;
+    padding: .3em 1.6em;
+    margin: .5em;
+}
+
+.title {
+    position: absolute;
+    left: 17%;
+    top: 13%;
+    line-height: 1;
+}
+
+.beautifulPerson {
+    padding: 2em 0 1em .25em;
+    text-align: left;
+    z-index: 1;
+}
+
+.beautifulPersonTitle{
+
+    font-size: .7em;
+    position: absolute;
+    bottom: .5em;
+    left: 0;
+}
+.beautifulPersonTitle .name{
+    font-weight: lighter;
+    color: #fff;
+
+}
+.beautifulPersonTitle .profession{
+    font-weight: bold;
+    color: #D0B966;
+}
+
+.opacity-50{
+    opacity: 0.5;
+}
+
+.blur {
+    width: 5em;
+    height: 5em;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    z-index: 0;
+    border-radius: 50%;
+    background-color: rgba(52, 85, 144, 0.44); /* Color #345590 with 44% opacity */
+    box-shadow: 0 0 15px 5px rgba(52, 85, 144, 0.44); /* Glow effect with the same color and opacity */
+    filter: blur(100px); /* Blurs the element itself */
+}
+
+.infoBar {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 100%;
+}
+
+.context {
+    background-color: #F5F5F7;
+    width: 100%;
+}
+
+.mediaIcons {
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.logo{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 10%;
+}

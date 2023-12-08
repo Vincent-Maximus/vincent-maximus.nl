@@ -10,7 +10,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-P61X41HKWY"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-P61X41HKWY');
@@ -18,130 +22,107 @@
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="w2JYZ5qVhXJEJs4Rkz4NDIfVoi4aulFNhSYPF_Quxa0"/>
     <title>Hub | Vincent Maximus</title>
-    <link rel="icon" href="assets/images/general/favicon.jpg" type="image" sizes=32x32">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" href="assets/images/hub/favicon.jpg" type="image" sizes=32x32">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/hub/style.min.css">
 </head>
 
 
 <body>
-<div class="container-fluid h-100">
-    <div class="row justify-content-center h-100">
-        <div class="col">
-            <div class="h-100 d-flex flex-column">
+<div class="container-fluid h-100 bg-blue">
+    <div class="row justify-content-center mx-3 h-100">
+        <div class="h-100 d-flex flex-column">
+            <div class="row justify-content-between text-white">
+                <div class="col-4 ">
+                    <strong style="font-size: .4em">Vincent</strong>
+                    <div style="font-size: .35em">Maximus</div>
+                </div>
+                <div class="col-4">
+                    <strong style="font-size: .4em">Visual</strong>
+                    <div style="font-size: .35em">Capture</div>
+                </div>
+            </div>
 
-                <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-1 p-0 m-0">
-                            <div class="profile-avatar">
+
+            <div class="blur"></div>
+            <div class="beautifulPerson position-relative">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/hub/images/webp/vincent-maximus.webp">
+                    <source type="image/png" srcset="assets/images/hub/images/jpg/vincent-maximus.jpg">
+                    <img width="75%" alt="vincent-maximus - Profile Photo">
+                </picture>
+                <div class="beautifulPersonTitle">
+                    <div class="name">Vincent Maximus -</div>
+                    <div class="profession">Digital Creator</div>
+                </div>
+            </div>
+
+            <div class="row m-0 justify-content-center">
+                <div class="mediaIcons w-100">
+                    <div class="col-12 p-0">
+                        <div class="socialIcons ">
+                            <a id="Youtube" rel="noopener" class="mr-1 socialIcon opacity-50"
+                               href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ" target="_blank">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/images/hub/social/webp/youtube.webp">
+                                    <source type="image/png" srcset="assets/images/hub/social/png/youtube.png">
+                                    <img width="70" alt="Youtube Icon">
+                                </picture>
+                            </a>
+
+                            <a id="linkedin" rel="noopener" class="m-1 socialIcon"
+                               href="https://www.linkedin.com/company/visualcapture/" target="_blank">
                                 <picture>
                                     <source type="image/webp"
-                                            srcset="assets/images/hub/images/webp/profile_picture.webp">
-                                    <source type="image/png" srcset="assets/images/hub/images/png/profile_picture.png">
-                                    <img height="64px" width="64px" alt="profile picture">
+                                            srcset="assets/images/hub/social/webp/linkedin.webp">
+                                    <source type="image/png" srcset="assets/images/hub/social/png/linkedin.png">
+                                    <img alt="" width="64">
                                 </picture>
-                            </div>
+                            </a>
+
+                            <a id="instagram" rel="noopener" class="m-1 socialIcon"
+                               href="https://www.instagram.com/vincent.maximus/" target="_blank">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="assets/images/hub/social/webp/instagram.webp">
+                                    <source type="image/png"
+                                            srcset="assets/images/hub/social/png/instagram.png">
+                                    <img alt="" width="65">
+                                </picture>
+                            </a>
+
+                            <a id="whatsapp" rel="noopener" class="m-1 socialIcon"
+                               href="https://wa.me/310631521355?text=Hi%20Vincent" target="_blank">
+                                <picture>
+                                    <source type="image/webp"
+                                            srcset="assets/images/hub/social/webp/whatsapp.webp">
+                                    <source type="image/png" srcset="assets/images/hub/social/png/whatsapp.png">
+                                    <img alt="" width="65">
+                                </picture>
+                            </a>
+
+                            <a id="mail" rel="noopener" class="ml-1 socialIcon"
+                               href="mailto:vjp.maximus@gmail.com"
+                               target="_blank">
+                                <picture>
+                                    <source type="image/webp" srcset="assets/images/hub/social/webp/mail.webp">
+                                    <source type="image/png" srcset="assets/images/hub/social/png/mail.png">
+                                    <img alt="" width="68">
+                                </picture>
+                            </a>
                         </div>
-                        <div class="col-4 p-0 m-0">
-                            <div class="menuBar">
-                                For more info
-                            </div>
-                        </div>
-                        <div class="col-1">
-
-                        </div>
-                        <div class="col-6">
-                            <div class="button bg-yellow">
-                                <a href="https://vincent-maximus.nl" target="_blank">
-                                    Visit Website
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <img src="assets/images/hub/images/png/banner.png" width="100%" height="100%" alt="banner">
-                    <div class="context">
-                        <div class="title text-white">
-                            What's <br>
-                            on your <br>
-                            mind?
-                        </div>
-                    </div>
-
-                </div>
-
-
-                <div class="row justify-content-center">
-                    <div class="text bg-white infoBar">
-                        <a rel="noopener" href="https://open.spotify.com/track/49X0LAl6faAusYq02PRAY6?si=LAZ1-MppRT672ybzBQosEQ">Tap on
-                            any media to learn more</a>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center bg-blue flex-grow-1">
-                    <div class="mediaIcons">
-
-                        <a rel="noopener" class="m-2" href="https://www.youtube.com/channel/UCcGbTU62OsQyeDk47m3PCUQ" target="_blank">
-                            <picture>
-                                <source type="image/webp" srcset="assets/images/hub/mediaIcons/webp/youtube.webp">
-                                <source type="image/png" srcset="assets/images/hub/mediaIcons/png/youtube.png">
-                                <img width="110" alt="social media icon">
-                            </picture>
-                        </a>
-
-                        <a rel="noopener" class="m-2" href="https://www.instagram.com/vincent.maximus/" target="_blank">
-                            <picture>
-                                <source type="image/webp" srcset="assets/images/hub/mediaIcons/webp/instagram.webp">
-                                <source type="image/png" srcset="assets/images/hub/mediaIcons/png/instagram.png">
-                                <img width="100" alt="social media icon">
-                            </picture>
-                        </a>
-
-                        <a rel="noopener" class="m-2" href="https://open.spotify.com/user/maxv2000_1?si=BK41GfmnRpSyPmmWu1QODQ"
-                           target="_blank">
-                            <picture>
-                                <source type="image/webp" srcset="assets/images/hub/mediaIcons/webp/spotify.webp">
-                                <source type="image/png" srcset="assets/images/hub/mediaIcons/png/spotify.png">
-                                <img width="100" alt="social media icon">
-                            </picture>
-                        </a>
-
-
-                        <a rel="noopener" class="m-2" href="https://www.linkedin.com/in/vincent-maximus" target="_blank">
-                            <picture>
-                                <source type="image/webp" srcset="assets/images/hub/mediaIcons/webp/linkedin.webp">
-                                <source type="image/png" srcset="assets/images/hub/mediaIcons/png/linkedin.png">
-                                <img width="90" alt="social media icon">
-                            </picture>
-                        </a>
-
-                        <a rel="noopener" class="m-2" href="mailto:vjp.maximus@gmail.com" target="_blank">
-                            <picture>
-                                <source type="image/webp" srcset="assets/images/hub/mediaIcons/webp/mail.webp">
-                                <source type="image/png" srcset="assets/images/hub/mediaIcons/png/mail.png">
-                                <img width="100" alt="social media icon">
-                            </picture>
-                        </a>
-
-
-
-                        <!--<a class="m-3" href="https://github.com/Vincent-Maximus" target="_blank">-->
-                        <!--<img src="assets/mediaIcons/github.jpg" width="100"/>-->
-                        <!--</a>-->
-
-                    </div>
-                </div>
-
-                <div class="row justify-content-center">
-                    <div class="footer text-white bg-green">
-                        Vincent Maximus
                     </div>
                 </div>
             </div>
+            <div class="logo">
+                <picture>
+                    <source type="image/webp" srcset="assets/images/hub/images/webp/VE-partial-logo.webp">
+                    <source type="image/png" srcset="assets/images/hub/images/png/VE-partial-logo.png">
+                    <img alt="" width="100%">
+                </picture>
+            </div>
         </div>
-
     </div>
 </div>
 
