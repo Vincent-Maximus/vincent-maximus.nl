@@ -20,7 +20,7 @@
         gtag('config', 'G-P61X41HKWY');
     </script>
     <meta name="description" content="Learn all about who Vincent Maximus is, what he does and how he can help you."/>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link rel="stylesheet" href="assets/style/fonts.css">
     <meta name="google-site-verification" content="w2JYZ5qVhXJEJs4Rkz4NDIfVoi4aulFNhSYPF_Quxa0"/>
     <title>Portfolio | Vincent Maximus</title>
@@ -47,17 +47,17 @@
 </div>
 
 <div>
-    <a href="about">
-        <picture>
-            <!--        <source type="image/webp" srcset="assets/images/homepage/intro/banner_1920x911.webp">-->
-            <!--        <source type="image/jpg" srcset="assets/images/homepage/intro/banner_1920x911.jpg">-->
-            <source type="image/webp" srcset="assets/images/homepage/intro/intro_image.webp">
-            <source type="image/jpg" srcset="assets/images/homepage/intro/intro_image.jpg">
-            <img class="intro-img" alt="intro image">
-        </picture>
-    </a>
+    <div class="image-container">
+        <a href="about">
+            <picture>
+                <source type="image/webp" srcset="assets/images/homepage/intro/intro_image.webp">
+                <source type="image/jpg" srcset="assets/images/homepage/intro/intro_image.jpg">
+                <img class="intro-img" alt="intro image">
+            </picture>
+        </a>
+    </div>
 
-<!--    <p class="thingsICallMyself">A content creator, Programmer and Photographer.</p>-->
+    <p class="thingsICallMyself">A content creator, Programmer and Photographer.</p>
 </div>
 
 <!--spacing-->
@@ -90,7 +90,8 @@
             current
         </div>
         <picture>
-            <source type="image/webp" srcset="assets/images/homepage/experience/8_fontys_university/fontys-building.webp">
+            <source type="image/webp"
+                    srcset="assets/images/homepage/experience/8_fontys_university/fontys-building.webp">
             <source type="image/jpg" srcset="assets/images/homepage/experience/8_fontys_university/fontys-building.jpg">
             <img class="workImg" alt="">
         </picture>
@@ -121,8 +122,40 @@
             current
         </div>
         <picture>
-            <source type="image/webp" srcset="assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.webp">
-            <source type="image/jpg" srcset="assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.jpg">
+            <source type="image/webp"
+                    srcset="assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.webp">
+            <source type="image/jpg"
+                    srcset="assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.jpg">
+            <img class="workImg" alt="">
+        </picture>
+    </div>
+    <div class="workCard">
+        <div class="workHeader cursor-pointer" onclick="ICT()">
+            <div class="titleDate SemiBold">
+                <br>
+                Software Engineer
+                <div class="date Light text-right">
+                    7 Mth
+                </div>
+            </div>
+            <div class="titleInfoCard">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col text-left titleInfo SemiBold">
+                            Alfa Laval
+                        </div>
+                        <div class="col text-right Light">
+                            Internship, Nijmegen
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="notCurrent"></div>
+        <picture>
+            <source type="image/webp" srcset="assets/images/homepage/experience/10_alfa_laval/alfalaval.webp">
+            <source type="image/jpg" srcset="assets/images/homepage/experience/10_alfa_laval/alfalaval.jpg">
             <img class="workImg" alt="">
         </picture>
     </div>
@@ -181,8 +214,10 @@
         </div>
         <div class="notCurrent"></div>
         <picture>
-            <source type="image/webp" srcset="assets/images/homepage/experience/9_motorkleding_store/Motorkleding-store.webp">
-            <source type="image/jpg" srcset="assets/images/homepage/experience/9_motorkleding_store/Motorkleding-store.jpg">
+            <source type="image/webp"
+                    srcset="assets/images/homepage/experience/9_motorkleding_store/Motorkleding-store.webp">
+            <source type="image/jpg"
+                    srcset="assets/images/homepage/experience/9_motorkleding_store/Motorkleding-store.jpg">
             <img class="workImg" alt="">
         </picture>
     </div>
@@ -280,6 +315,7 @@
     <div class="workCard">
         <div class="workHeader cursor-pointer" onclick="MediaMarkt()">
             <div class="titleDate SemiBold">
+                <br>
                 Salesperson
                 <div class="date Light text-right">
                     3 Yrs
@@ -338,6 +374,7 @@
     <div class="workCard">
         <div class="workHeader cursor-pointer" onclick="ITTech()">
             <div class="titleDate SemiBold">
+                <br>
                 IT Technician
                 <div class="date Light text-right">
                     2 Mth
@@ -777,7 +814,7 @@
                     the link below for to send me an email. I can’t wait.
                 </div>
                 <div class="spacer-5"></div>
-<!--                TODO fix this button-->
+                <!--                TODO fix this button-->
                 <div class="underlineButton">
                     <a rel="noopener" class="socialIcon" href="mailto:vjp.maximus@gmail.com" target="_blank">
                         <div class="centerButton">
@@ -918,7 +955,6 @@
 </div>
 </body>
 </html>
-
 
 
 <!--temp smooth scroll-->

@@ -1,31 +1,35 @@
 @font-face {
     font-family: Black;
-    src: url("../font/SofiaProBlack.otf");
+    src: url("../font/Poppins-Black.woff2");
 }
 
 @font-face {
     font-family: Bold;
-    src: url("../font/SofiaProBold.otf");
+    src: url("../font/Poppins-Bold.woff2");
 }
 
 @font-face {
     font-family: SemiBold;
-    src: url("../font/SofiaProSemiBold.otf");
+    src: url("../font/Poppins-SemiBold.woff2");
 }
 
 @font-face {
     font-family: Medium;
-    src: url("../font/SofiaProMedium.otf");
+    src: url("../font/Poppins-Medium.woff2");
 }
 
 @font-face {
     font-family: Regular;
-    src: url("../font/SofiaProRegular.otf");
+    src: url("../font/Poppins-Regular.woff2");
 }
 
 @font-face {
     font-family: light;
-    src: url("../font/SofiaProLight.otf");
+    src: url("../font/Poppins-Light.woff2");
+}
+@font-face {
+    font-family: ExtraLight;
+    src: url("../font/Poppins-ExtraLight.woff2");
 }
 
 .Black {

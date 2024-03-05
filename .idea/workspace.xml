@@ -14,33 +14,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9edec30-c35f-4c76-81ea-3dbb561c5f72" name="Default Changelist" comment="prettified menu, and menu links">
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/LinkedIn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/LinkedInwhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/instagram-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/mail-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/whatsapp-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/png/whatsapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/instagram-white.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/instagram.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/linkedin-white.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/linkedin.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/mail-white.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/mail.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/whatsapp-white.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/whatsapp.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Poppins-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/10_alfa_laval/alfalaval.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/homepage/experience/10_alfa_laval/alfalaval.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/png/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/png/profile_picture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/webp/banner.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/images/webp/profile_picture.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/png/Website.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/png/Website.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/png/youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/png/youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/webp/Website.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/Website.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/hub/mediaIcons/webp/youtube.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/hub/social/webp/youtube.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/hub/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/hub/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hub.html" beforeDir="false" afterPath="$PROJECT_DIR$/hub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/SofiaProBlack.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/SofiaProBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/SofiaProLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/SofiaProMedium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/SofiaProRegular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/font/SofiaProSemiBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture/Visual_Capture-Profile_Picture.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/intro/intro_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/intro/intro_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/homepage/intro/intro_image.webp" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/homepage/intro/intro_image.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/workExperience.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/workExperience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,30 +86,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/vincentmaximus/Documents/03 - Hobbies/01 - vincent-maximus.nl/vincent-maximus.nl/assets/images/hub",
+    "last_opened_file_path": "/Users/vincentmaximus/Documents/vincent-maximus.nl/assets/images/homepage/experience/7_Visual_Capture",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/hub" />
-      <recent name="$PROJECT_DIR$/assets/images/hub/images/webp" />
-      <recent name="$PROJECT_DIR$/assets/images/about/profilePicture" />
-      <recent name="$PROJECT_DIR$/assets/images/homepage/experience/9_motorkleding_store" />
+      <recent name="$PROJECT_DIR$/assets/images/homepage/experience/7_Visual_Capture" />
+      <recent name="$PROJECT_DIR$/assets/images/homepage/experience/10_alfa_laval" />
       <recent name="$PROJECT_DIR$/assets/images/homepage/intro" />
+      <recent name="$PROJECT_DIR$/assets/font" />
+      <recent name="$PROJECT_DIR$/assets/images/hub" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/font" />
       <recent name="$PROJECT_DIR$/assets/images/hub/social/webp" />
       <recent name="$PROJECT_DIR$/assets/images/hub/social/png" />
       <recent name="$PROJECT_DIR$/assets/images/hub/images/png" />
       <recent name="$PROJECT_DIR$/assets/images/about/jpg" />
-      <recent name="$PROJECT_DIR$/assets/images/about/webp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -190,6 +190,8 @@
       <workItem from="1667503665871" duration="1144000" />
       <workItem from="1697461499155" duration="1099000" />
       <workItem from="1702070344994" duration="4168000" />
+      <workItem from="1709631796103" duration="43000" />
+      <workItem from="1709631843688" duration="2605000" />
     </task>
     <servers />
   </component>

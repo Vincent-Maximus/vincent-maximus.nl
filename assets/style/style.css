@@ -159,12 +159,12 @@ ul.topnav li.right {
 
 /*could've just put it in the image, but now u can select it, what are you gonna do*/
 .thingsICallMyself {
-    font: 2.5em black, sans-serif;
-    width: 450px;
+    font: 2.5em SemiBold, sans-serif;
+    width: 480px;
     text-decoration: none;
-    color: var(--dark);
+    color: var(--white);
     position: absolute;
-    left: 69%;
+    left: 64%;
     transform: translate(-50%, -188%);
 }
 
@@ -210,18 +210,41 @@ ul.topnav li.right {
 }
 
 
-.intro-img {
+.image-container {
+    height: 90vh;
     width: 90%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.intro-img {
+    max-height: 100%;
+    width: auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 600px) {
+    .image-container {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        border-radius: 0;
+    }
     .intro-img {
         width: 100%;
+        max-height: none;
     }
 }
+
+
+
+
 
 
 /*spacer*/
